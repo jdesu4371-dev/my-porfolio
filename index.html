@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- Animated background -->
+    <div class="bg">
+        <span class="blob blob1"></span>
+        <span class="blob blob2"></span>
+        <span class="blob blob3"></span>
+        <span class="grid"></span>
+    </div>
+
+    <!-- Navigation -->
+    <header id="header">
+        <div class="nav-wrap">
+            <a href="#home" class="nav-link logo" id="logo">JOHN RIAN<span>DESUNLO</span></a>
+            <button id="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+            <nav id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HOME -->
+        <section id="home">
+            <div class="container hero">
+                <p class="tag reveal">&#128075; Hello, welcome to my portfolio</p>
+                <h1 id="title" class="reveal">My Portfolio</h1>
+                <p class="lead reveal">This is my porfolio for midterms and finals, if you want to see the projects that
+                    i create go to the projects page.</p>
+                <div class="hero-buttons reveal">
+                    <a href="#projects" class="nav-link btn btn-primary">View My Work</a>
+                    <a href="#contact" class="nav-link btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+            <a href="#about" class="nav-link scroll-down">&#8595;</a>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about">
+            <div class="container">
+                <h3 class="section-title reveal">About <span>DESU</span></h3>
+                <div class="about-grid">
+                    <div class="about-card glass reveal">
+                        <img src="images/profile2.jpg.png" alt="My Profile">
+                        <h4>JOHN RIAN DESUNLO</h4>
+                        <p class="muted"> &bull; STUDENT</p>
+                    </div>
+                    <div class="about-text glass reveal">
+                        <p>Write a short introduction about yourself here. Tell visitors who you are, what you are
+                            studying, and what you love to build.</p>
+                        <p>Currently learning HTML, CSS, JavaScript and jQuery to create interactive and responsive
+                            websites.</p>
+
+                        <div class="btn-row">
+                            <button class="btn btn-primary btn2">Hide HOBBIES</button>
+                            <button class="btn btn-outline btn3">Show HOOBIES</button>
+                        </div>
+
+                        <div id="skills">
+                            <span class="chip">Drawing</span>
+                            <span class="chip">Chess</span>
+                            <span class="chip">Basketball</span>
+                            <span class="chip">Watching Movies</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects">
+            <div class="container">
+                <h3 class="section-title reveal">My <span>Projects</span></h3>
+                <p id="project-message" class="center muted reveal">Hover over or click a project to see more.</p>
+
+                <div class="project-grid">
+                    <!-- Just replace each href="#" with your project link -->
+                    <a href="project-one/Home.html" class="project-box glass reveal" data-title="Project One">
+                        <span class="num">01</span>
+                        <h4>Project One</h4>
+                        <p>My first project is a personal website created using HTML and CSS. It includes a Home page,
+                            Registration Form, Grade Table, and My Profile. This project helped me learn basic web
+                            development, page layout, and navigation.</p>
+                        <span class="go">View project &rarr;</span>
+                    </a>
+
+                    <a href="project-two/Mainpage.html" class="project-box glass reveal" data-title="Project Two">
+                        <span class="num">02</span>
+                        <h4>Project Two</h4>
+                        <p>My second project is a multi-page website about pizza products. It showcases different pizza
+                            varieties, product details, and website navigation. This project helped me improve my skills
+                            in web design, page layout, and organizing product information using HTML and CSS.</p>
+                        <span class="go">View project &rarr;</span>
+                    </a>
+
+                    <a href="project-three/index.html" class="project-box glass reveal" data-title="Project Three">
+                        <span class="num">03</span>
+                        <h4>Project Three</h4>
+                        <p>My third project focuses on using jQuery buttons to show and hide a table. It helped me learn
+                            basic jQuery functions, event handling, and interactive website elements.</p>
+                        <span class="go">View project &rarr;</span>
+                    </a>
+
+                    <a href="project-four/index.html" class="project-box glass reveal" data-title="Project Four">
+                        <span class="num">04</span>
+                        <h4>Project Four</h4>
+                        <p>My fourth project uses two buttons that change the displayed words and font colors when
+                            clicked. It helped me understand JavaScript events, DOM manipulation, and interactive
+                            webpage features.</p>
+                        <span class="go">View project &rarr;</span>
+                    </a>
+
+                    <a href="project-fifth/Home.html" class="project-box glass reveal" data-title="Project Five">
+                        <span class="num">05</span>
+                        <h4>Project Five</h4>
+                        <p>My fifth project is a login page with a course selection combo box, a name input field, and
+                            interactive buttons. It demonstrates button functions such as changing text and colors,
+                            double-click events, and mouse-up and mouse-down effects.</p>
+                        <span class="go">View project &rarr;</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <div class="container">
+                <h3 class="section-title reveal">Contact <span>DESU</span></h3>
+
+                <form id="contact-form" class="glass reveal">
+                    <input type="text" id="name" class="field" placeholder="Your name">
+                    <input type="text" id="email" class="field" placeholder="Your email">
+                    <select id="topic" class="field">
+                        <option value="">Select a topic</option>
+                        <option value="Collaboration">Collaboration</option>
+                        <option value="Project Inquiry">Project Inquiry</option>
+                        <option value="Just saying hi">Just saying hi</option>
+                    </select>
+                    <textarea id="userMessage" class="field" rows="4" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <p id="form-status"></p>
+                </form>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> jOHN RIAN D. DESUNLO. MY LANDING PAGE PORTFOLIO.</p>
+    </footer>
+
+    <button id="to-top" aria-label="Back to top">&#8593;</button>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
