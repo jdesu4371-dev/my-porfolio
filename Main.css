@@ -1,0 +1,142 @@
+.Homebody{
+    background-color: black;
+}
+.Homeheader{
+    text-align: Center;
+    background-color: brown;
+    padding: 20px;
+}
+.Homenav{
+    display: flex;
+    background-color: bisque;
+    justify-content: Center;
+    gap: 100px;
+}
+.Homediv{
+    display: flex;
+}
+.Homesection{
+    background-color: rgb(124, 124, 214);
+    padding: 1%;
+    text-align: center;
+    padding: 3%;
+    width: 50%;
+}
+.Homeaside{
+    background-color: violet;
+    flex: 4;
+}
+
+.Regbody{
+    background-color: rgb(114, 128, 141)
+}
+.Regheader{
+    text-align: center;
+    background-color: rgb(138, 179, 153) ;
+    padding: 3px;
+}
+.Regnav{
+    display: flex;
+    background-color: bisque;
+    justify-content: center;
+    gap: 100px;
+}
+.Regform{
+    text-align: center;
+}
+
+.Grbody{
+    background-color: rgb(124, 158, 187);
+}
+.Grheader{
+    text-align: center;
+    background-color: rgb(122, 70, 122);
+    padding: 2px;
+}
+.Grnav{
+    display: flex;
+    background-color: bisque;
+    justify-content: center;
+    gap: 100px;
+}
+.Grtable{
+    justify-content: center;
+    border: 5px;
+    width: 100%;
+}
+.Grtr1{
+    background-color: pink;
+}
+.Grtr2{
+    background-color: beige;
+}
+.Grtr3{
+    background-color: beige;
+}
+.Grtr4{
+    background-color: beige;
+}
+.Grtr5{
+    background-color: beige;
+}
+.Grtr6{
+    background-color: beige;
+}
+.Grtr7{
+    background-color: yellow;
+}
+.Grth1{
+    text-align: center;
+}
+.Grth2{
+    text-align: center;
+}
+
+.Pfbbody{
+    background-color: white;
+}
+.Pfheader{
+    background-color: rgb(150, 150, 111);
+    text-align: center;
+    padding: 2px;
+}
+.Pfnav{
+    background-color: bisque;
+    justify-content: center;
+    gap: 100px;
+    display: flex;
+    border-radius: 5px;
+}
+.Pfdiv{
+    display: flex;
+}
+.Pfsection{
+    background-color: rgb(181, 181, 209);
+    padding: 1%;
+    text-align:Center;
+    padding: 3%;
+    width: 50%;
+}
+.Pfaside{
+    background-color: rgb(217, 219, 183);
+    flex: 4;
+}
+.Pfdiv1{
+    display: flex;
+}
+.Pfsection1{
+    background-color: rgb(111, 111, 156);
+    padding: 1%; 
+    text-align: Center; 
+    padding: 3%; 
+    width: 50%;
+}
+.Pfaside1{
+    background-color: rgb(140, 143, 79);
+    flex: 4;;
+}
+.Pfimage{
+    justify-content: center;
+    height: 120;
+    width: 100;
+}
